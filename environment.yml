@@ -5,9 +5,9 @@ channels:
   - bioconda
 
 dependencies:
-  - python=3.7
+  - python==3.7
   - jupyter
   - snakemake
   - pip
-  pip:
+  - pip:
     - elephant
